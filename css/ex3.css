@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Moirai+One&family=Potta+One&family=Schoolbell&family=Sniglet:wght@400;800&display=swap');
+
 
 body{
     padding: 0;
@@ -6,22 +7,22 @@ body{
     font-size: 1.2rem;
     color:rgba(87, 117, 144, 1);
 
-    font-family: "Roboto", sans-serif;
+    font-family: "Chiron GoRound TC", sans-serif;
 }
 
 ::selection{
-    background: rgba(87, 117, 144, 1);
+    background: rgb(238, 200, 118);
     color: rgba(255, 255, 255, 1);
 }
 
 a{
     text-decoration: none;
-    color: rgba(87, 117, 144, 1);
+    color: rgb(201, 45, 21);
     display: inline-block;
 }
 
 a:hover{
-    color: rgba(87, 117, 144, 1);
+    color: rgb(234, 97, 34);
 }
 
 /*header*/
@@ -87,19 +88,20 @@ nav a:hover{
 
 .hero h1{
     position: absolute;
-    top:20%;
+    top:70%;
 	left:50%;
 	transform: translate(-50%, -50%);
 
-    font-size: 150px;
-    color: rgba(87, 117, 144, 1);
+    font-size: 100px;
+    color: rgb(7, 111, 214);
+    font-family: "Potta One", sans-serif;
 }
 
 /*marquee*/
 .marquee{
     width: 100%;
     overflow: hidden;
-    background: rgba(251, 139, 36, 1);
+    background: rgb(210, 22, 22);
     color: rgba(255, 255, 255, 1);
     padding: 20px 0;
 }
@@ -139,7 +141,7 @@ section{
 
 section h1{
     flex:0 0 100%;
-    color:rgba(87, 117, 144, 1);
+    color:rgb(195, 28, 28);
     text-align: center;
 }
 
@@ -153,7 +155,7 @@ section h1{
 .card img{
 	width:80%;
 	border-radius:50%;
-	border:solid 1px rgba(87, 117, 144, 1);
+	border:solid 1px rgba(226, 16, 16, 0.742);
     
 	-ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Safari */
@@ -174,7 +176,7 @@ article{
 	flex:0 0 100%;
 	margin:auto;
     margin-bottom: 30px;
-    border:solid 4px rgba(87, 117, 144, 1);
+    border:solid 4px rgb(236, 118, 21);
     border-radius: 50px;
     box-sizing: border-box;
 
@@ -186,8 +188,8 @@ section > a:nth-of-type(2n) article{
 }
 
 article:hover{
-    border:solid 8px rgba(87, 117, 144, 1);
-    background:rgba(87, 117, 144, .2);
+    border:solid 8px rgb(168, 22, 22);
+    background:rgba(103, 176, 240, 0.43);
 }
 
 .a_left{
@@ -206,7 +208,7 @@ article:hover{
 	flex:1;
 	padding: 4%;
 	box-sizing:border-box;
-	color:rgba(87, 117, 144, 1);
+	color:rgb(14, 100, 175);
 	text-align:left;
     line-height: 2rem;
 }
